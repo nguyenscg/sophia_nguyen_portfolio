@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #F4C2C2;
+    --background-color: #FAF9F6;
+    --accent-1: #D6CDEA;
+    --accent-2: #2F2F3A;
+    --highlight: #B8AFA1;
+    --hover-detail: #F0E4DC;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--highlight);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+a,
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #000;
+}
+
+a:hover,
+.btn-primary:hover {
+    background-color: var(--hover-detail);
+    border-color: var(--hover-detail);
+}
